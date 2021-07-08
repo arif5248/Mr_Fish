@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+section{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn:link,
+.btn:visited,
+.btn{
+    margin-top: 25px;
+    background: #333;
+    border-bottom: .3rem solid #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px; 
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.header_text{
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+.Text_heading{
+    margin-bottom: 30px;
+}
+.welcome_2{
+    margin-bottom: 25px;
+}
+.green_highlite{
+    color: seagreen;
+
+}
+.tag_line{
+    margin-bottom: 15px;
+}
+.btn_header{
+    background: seagreen;
+    color: #fff;
+}
+.heading_image{
+    width: 40%;
+    text-align: right;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+}
+.propic{
+    width: 100%;
+    height: auto;
+    
+}
+.resume{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.resume_image{
+    width: 40%;
+    float: left;
+    display: inline-block;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.resume_text{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: inline-block;
+}
+.dream{
+    color: #713fd9;
+}
+.btn_resume{
+    background: #713fd9;
+}
+
+.experience_area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.area-heading{
+    margin-bottom: 40px;
+} 
+
+.box{
+    width: 40%;
+    float: left;
+    padding: 35px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.box_1{
+    margin-right: 10%;
+    
+}
+.box_2{
+    margin-left: 10%;
+}
+.experience-heading{
+    margin-bottom: 20px;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato );
+    border-image-slice: 1;
+}
+#nube_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 30px;
+}
